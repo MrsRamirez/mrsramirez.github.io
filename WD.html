@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home</title>
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700|Work+Sans:300,400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <link rel="stylesheet" href="animate.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/scrollify.js"></script>
+    <link rel="icon" type="image/jpg" href="favicon.png">
+    <style>
+        .hero-text1{
+            position: relative;
+            top: -15px;
+        }
+        .works__title{
+            position: relative;
+            top: -15px;
+            left: 0px;  
+        }
+        .hero__subtitle1{
+            top: 150px;
+            text-indent: 50px;
+        }
+        .hero__subtitle{
+            top: 20px;
+        }
+        .hero__subtitle2{
+            top: 300px;
+            left: 4px;
+            max-width: 100%;
+            
+        }
+        .hero__subtitle3{
+            font-weight: regular;
+	        font-size: 1.5rem;
+            text-align: justify;
+            position: relative;
+            left: 100px;
+            
+        }
+    </style>
+</head>
+<body class="hidden" style="overflow: hidden !important;">
+    <div id="particles-js" class="animated" data-animation="fadeIn"></div>
+
+    <!-- Scroll Bar -->
+    <div class="scroll-bar animated" data-animation="fadeIn">
+        <div class="scroll-wrap">
+            <div class="bar__dots"> 
+                <span class="dots__circle"></span>
+                <span class="dots__circle"></span>
+                <span class="dots__circle"></span>
+            </div>
+            <div class="bar__line"></div>
+            <div class="bar__circle"></div>
+            <div class="bar__dots">
+                <span class="dots__circle"></span>
+                <span class="dots__circle"></span>
+                <span class="dots__circle"></span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Nav Bar -->
+    <nav class="top animated" data-animation="fadeInLeft">
+        <div class="nav__logo" onclick="$.scrollify.move('#home')">&#127772;</div>
+        <div class="nav__links">
+            <li><a href="index.html" target="_self">Ramirez</a></li>
+            <li><a href="#pacing">Pacing</a></li>
+            <li><a href="grading.html" target="_self">Grading</a></li>
+            <li><a href="Contact.html" target="_self">Contact</a></li>
+        </div>
+    </nav>
+
+    <!-- Home -->
+    <section class="container" data-section-name="home" id="up">
+        <i class="fa fa-caret-square-o-down arrow hidden animated" data-animation="rubberBand infinite" aria-hidden="true" onclick="$.scrollify.next()"></i>
+        
+        <div class="person-container">
+            <!-- Edited Version of a Photo by Luna Ramirez on Photopea -->
+            <img src="html5.svg" alt="html5.svg" class="person animated" data-animation="fadeInRight">
+        </div>
+
+        <div class="hero-text1">
+            <div class="random1 hero__name1">
+                <span class="nbr ltr">0</span>
+                <span class="nbr ltr">1</span>
+                <span class="nbr ltr">0</span>
+                <span class="nbr ltr">0</span>
+                <span class="nbr ltr">1</span>
+                <span class="nbr ltr">1</span>
+                <span class="nbr ltr">0</span>
+                <span class="nbr ltr">0</span>
+                <span class="nbr ltr">0</span>
+                <span class="nbr ltr">1</span>
+                <span class="nbr ltr">0</span>
+                <span class="nbr ltr">0</span>
+                <span class="nbr ltr">0</span>
+                <span class="nbr ltr">1</span>
+                <span class="nbr ltr">0</span>
+                <span class="nbr ltr">0</span>
+                <span class="nbr ltr">0</span>
+                <span class="nbr ltr">0</span>
+           </div>
+            <span class="hero__subtitle animated1" data-animation="zoomInUp">______Web Development & CS</span>
+        </div>
+    
+    <!-- course description -->
+    <span class="hero__subtitle animated" data-animation="zoomInUp">______Course Description:</span>
+        
+        <span class="hero__subtitle1 animated" data-animation="zoomInDown" >
+            <hr>
+            This comprehensive course combines the foundational principles of computer science
+             with hands-on web development skills. Students will explore digital information, 
+             the internet, app design, algorithms, data analysis, and cybersecurity while also mastering 
+             the art of web development, including HTML, CSS, JavaScript, and more.
+             <br><b>Course Objectives:</b><br>
+                By the end of this course, students will:
+
+                <li>Create interactive web applications using HTML, CSS, JavaScript, and web frameworks.</li>
+                <li>Understand fundamental computer science principles and computational thinking.</li>
+                <li>Prepare for the AP CSP exam and build a portfolio of web development projects.</li>
+                <li>Explore data analysis, data storytelling, and algorithm efficiency.</li>
+                <li>Learn about cybersecurity and its global impact.</li>
+                <li>Develop problem-solving skills and algorithmic thinking.</li>
+                <li>Design visually appealing and user-friendly websites.</li>
+        </span>
+            
+        </div>
+    
+</section>
+    <section class="container" data-section-name="pacing" id="pacing">
+      <iframe class="iframe-wcp"></iframe>
+      <div class="wcp__overlay" ></div>
+        <span class="hero__subtitle animated" data-animation="zoomInUp">______Course Schedule:</span>
+        <hr>
+      
+        <table border="1" class="hero__subtitle3 animated" data-animation="zoomInDown" >
+          <tr>
+            <th>Weeks</th>
+            <th>APCSP Unit</th>
+            <th>Web Development Unit</th>
+            <th>Assessments</th>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>1. Digital Information</td>
+            <td>0. Version Control</td>
+            <td>Unit 1 Journal, 4 Activity guides<br> 3 Labs, 1 project </td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>2. The Internet</td>
+            <td>1. HTML</td>
+            <td>Unit 2 Journal, 5 Activity guides<br> 7 Labs, 1 project </td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>3. Intro to App Design</td>
+            <td>2. CSS</td>
+            <td>Unit 3 Journal, 6 Activity guides<br> 3 Labs, 1 project </td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>4. Variables, Conditionals, and Functions</td>
+            <td>3. Bulma</td>
+            <td>Unit 4 Journal, 8 Activity guides<br> 2 Labs, 2 project </td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>5. Data</td>
+            <td>4. Bootstrap</td>
+            <td>Unit 5 Journal, 5 Activity guides<br> 2 Labs, 1 project </td>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>6. Lists, Loops, and Traversals</td>
+            <td>5. JavaScript</td>
+            <td>Unit 6 Journal, 6 Activity guides<br> 5 Labs, 2 project </td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>7. Parameters, Return, and Libraries</td>
+            <td>6. p5.js</td>
+            <td>Unit 7 Journal, 2 Activity guides<br> 3 Labs, 2 project </td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>8. Cybersecurity and Global Impacts</td>
+            <td>7. jQuery</td>
+            <td>Unit 8 Journal, 3 Activity guides<br> 2 Labs, 2 project </td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>9. Create PT Prep</td>
+            <td>8. APIs</td>
+            <td>Unit 9 Journal,  3 Activity guides<br>  1 project </td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>10. Algorithms</td>
+            <td>9. Websockets</td>
+            <td>Unit 10 Journal, 1 Activity guides<br> 1 Labs, 2 project </td>
+            </tr></table>
+              </section>
+<i class="fa fa-caret-square-o-up arrow animated" data-animation="rubberBand infinite" aria-hidden="true" onclick="$.scrollify.previous()"></i>
+  
+    <footer>
+		<div class="containter text-center foot">
+            <p>Made by Luna R. 2024 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"></a></p>
+		</div>
+	</footer>
+   
+
+    <script src="js/particles.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/main.js"></script>
+    
+</body>
+</html>

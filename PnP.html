@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home</title>
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700|Work+Sans:300,400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <link rel="stylesheet" href="animate.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/scrollify.js"></script>
+    <link rel="icon" type="image/jpg" href="favicon.png">
+    <style>
+        .hero-text1{
+            position: relative;
+            top: -15px;
+        }
+        .works__title{
+            position: relative;
+            top: -15px;
+            left: 0px;  
+        }
+        .hero__subtitle1{
+            top: 150px;
+            text-indent: 50px;
+            font-size: 1.6rem;
+        }
+        .hero__subtitle{
+            top: 20px;
+        }
+        .hero__subtitle2{
+            top: 300px;
+            left: 4px;
+            max-width: 100%;
+            
+        }
+        .hero__subtitle3{
+            font-weight: regular;
+	        font-size: 1.5rem;
+            text-align: justify;
+            position: relative;
+            left: 30px;
+            
+        }
+    </style>
+</head>
+<body class="hidden" style="overflow: hidden !important;">
+    <div id="particles-js" class="animated" data-animation="fadeIn"></div>
+
+    <!-- Scroll Bar -->
+    <div class="scroll-bar animated" data-animation="fadeIn">
+        <div class="scroll-wrap">
+            <div class="bar__dots"> 
+                <span class="dots__circle"></span>
+                <span class="dots__circle"></span>
+                <span class="dots__circle"></span>
+            </div>
+            <div class="bar__line"></div>
+            <div class="bar__circle"></div>
+            <div class="bar__dots">
+                <span class="dots__circle"></span>
+                <span class="dots__circle"></span>
+                <span class="dots__circle"></span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Nav Bar -->
+    <nav class="top animated" data-animation="fadeInLeft">
+        <div class="nav__logo" onclick="$.scrollify.move('#home')">&#127772;</div>
+        <div class="nav__links">
+            <li><a href="index.html" target="_self">Ramirez</a></li>
+            <li><a href="#pacing">Pacing</a></li>
+            <li><a href="grading.html" target="_self">Grading</a></li>
+            <li><a href="Contact.html" target="_self">Contact</a></li>
+        </div>
+    </nav>
+
+    <!-- Home -->
+    <section class="container" data-section-name="home" id="up">
+        <i class="fa fa-caret-square-o-down arrow hidden animated" data-animation="rubberBand infinite" aria-hidden="true" onclick="$.scrollify.next()"></i>
+        
+        <div class="person-container">
+            <!-- Edited Version of a Photo by Luna Ramirez on Photopea -->
+            <img src="python.svg" alt="python.svg" class="person animated" data-animation="fadeInRight">
+        </div>
+
+        <div class="hero-text1">
+            <div class="random1 hero__name1">
+                <span class="nbr ltr">0</span>
+                <span class="nbr ltr">1</span>
+                <span class="nbr ltr">0</span>
+                <span class="nbr ltr">0</span>
+                <span class="nbr ltr">1</span>
+                <span class="nbr ltr">1</span>
+                <span class="nbr ltr">0</span>
+                <span class="nbr ltr">0</span>
+                <span class="nbr ltr">0</span>
+                <span class="nbr ltr">1</span>
+                <span class="nbr ltr">0</span>
+                <span class="nbr ltr">0</span>
+                <span class="nbr ltr">0</span>
+                <span class="nbr ltr">1</span>
+                <span class="nbr ltr">0</span>
+                <span class="nbr ltr">0</span>
+                <span class="nbr ltr">0</span>
+                <span class="nbr ltr">0</span>
+           </div>
+            <span class="hero__subtitle animated1" data-animation="zoomInUp">______Programming & Prototyping</span>
+        </div>
+    
+    <!-- course description -->
+    <span class="hero__subtitle animated" data-animation="zoomInUp">______Course Description:</span>
+        
+        <span class="hero__subtitle1 animated" data-animation="zoomInDown" >
+            <hr>
+            This course is designed to provide students with an introduction to computer science 
+            in the Fall term and the principles of Design Thinking in the Spring term. 
+            Students will learn the fundamentals of computer programming and computer science, 
+            emphasizing computational thinking and problem-solving skills. In the Spring term, 
+            students will delve into User Experience (UX) Design, studying user behavior and 
+            motivation to create better experiences. The course will use Python as the primary 
+            programming language in the Fall term and focus on project-based learning in the Spring term.
+
+
+             <br><b>Course Objectives:</b><br>
+                By the end of this course, students will:
+                        <li>Apply computational thinking to break down complex problems into smaller, manageable components.</li>
+                        <li>Understand the stages of Design Thinking and apply them to create user-centered solutions.</li>
+                        <li>Analyze user behavior and motivations to inform the design of user-friendly experiences.</li>
+                        <li>Improve communication skills through class discussions and project presentations.</li>
+                        <li>Learn how to estimate project timelines and create a Minimum Viable UX Portfolio.</li>
+                        <li>Use algorithmic thinking to design efficient solutions to real-world problems.</li>
+                        <li>Activate creativity by applying human-centered design thinking methods.</li>
+                        <li>Gain insights into career options in UX design and computer science.</li>
+                        <li>Collaborate with peers on group projects to tackle complex problems.</li>
+                        <li>Cultivate problem-solving skills through hands-on coding exercises.</li>
+                        <li>Communicate and present UX prototypes effectively to stakeholders.</li>
+                        <li>Develop prototypes and conduct user testing to refine designs.</li>
+                        <li>Write, analyze, and debug Python code proficiently.</li>
+                        <li>Explore Data Structures and Algorithms</li>
+        </span>
+        </div>
+    
+</section>
+    <section class="container" data-section-name="pacing" id="pacing">
+      <iframe class="iframe-wcp"></iframe>
+      <div class="wcp__overlay" ></div>
+        <span class="hero__subtitle animated" data-animation="zoomInUp">______Course Schedule:</span>
+        <hr>
+        <table border="1" class="hero__subtitle3 animated" data-animation="zoomInDown">
+            <tr>
+                <th>Week</th>
+                <th>Unit</th>
+                <th>Assessments</th>
+            </tr>
+            <!-- Term 1: Back End Languages 1 -->
+            <tr>
+                <td>1-2</td>
+                <td>Intro to Python</td>
+                <td>Homework 1, Quiz 1, Project 1, Lab 1, Lab 2, Lab 3</td>
+            </tr>
+            <tr>
+                <td>3-4</td>
+                <td>Number Calculations and Data</td>
+                <td>Coding Assignment 1, Quiz 2, Project 2, Lab 4, Lab 5, Lab 6</td>
+            </tr>
+            <tr>
+                <td>5-6</td>
+                <td>Making Decisions</td>
+                <td>Coding Assignment 2, Class Discussion, Project 3, Lab 7, Lab 8, Lab 9</td>
+            </tr>
+            <tr>
+                <td>7-8</td>
+                <td>Repetition and Loops</td>
+                <td>Coding Assignment 3, Quiz 3, Project 4, Lab 10, Lab 11, Lab 12</td>
+            </tr>
+            <tr>
+                <td>9-10</td>
+                <td>For Loops</td>
+                <td>Coding Assignment 4, Classwork, Project 5, Lab 13, Lab 14, Lab 15</td>
+            </tr>
+            <tr>
+                <td>11-12</td>
+                <td>Functions</td>
+                <td>Coding Assignment 5, Quiz 4, Project 6, Lab 16, Lab 17, Lab 18</td>
+            </tr>
+            <tr>
+                <td>13-14</td>
+                <td>Arrays</td>
+                <td>Coding Assignment 6, Class Discussion, Project 7, Lab 19, Lab 20, Lab 21</td>
+            </tr>
+            <tr>
+                <td>15-16</td>
+                <td>2D Arrays</td>
+                <td>Coding Assignment 7, Quiz 5, Project 8, Lab 22, Lab 23, Lab 24</td>
+            </tr>
+            <tr>
+                <td>17-18</td>
+                <td>Extension: Code Practice</td>
+                <td>Coding Assignment 8, Classwork, Project 9, Lab 25, Lab 26, Lab 27</td>
+            </tr>
+        
+            <!-- Term 2: User Experience -->
+            <tr>
+                <td>19-20</td>
+                <td>Stages of Design Thinking</td>
+                <td>Homework 2, Classwork, Project 10, Lab 28, Lab 29, Lab 30</td>
+            </tr>
+            <tr>
+                <td>21-22</td>
+                <td>Research & Testing</td>
+                <td>Quiz 6, UX Prototype 1, Project 11, Lab 31, Lab 32, Lab 33</td>
+            </tr>
+            <tr>
+                <td>23-24</td>
+                <td>Prototyping/Rapid Prototyping</td>
+                <td>Class Discussion, UX Prototype 2, Project 12, Lab 34, Lab 35, Lab 36</td>
+            </tr>
+            <tr>
+                <td>25-26</td>
+                <td>Content & Strategy</td>
+                <td>Quiz 7, UX Prototype 3, Project 13, Lab 37, Lab 38, Lab 39</td>
+            </tr>
+            <tr>
+                <td>27-28</td>
+                <td>Communicating and Presenting Prototypes</td>
+                <td>UX Prototype 4, Presentation Prep, Project 14, Lab 40, Lab 41, Lab 42</td>
+            </tr>
+            <tr>
+                <td>29-30</td>
+                <td>Intro to Entrepreneurship</td>
+                <td>Homework 3, Class Discussion, Project 15, Lab 43, Lab 44, Lab 45</td>
+            </tr>
+            <tr>
+                <td>31-32</td>
+                <td>UX as a Career</td>
+                <td>Classwork, Career Exploration, Project 16, Lab 46, Lab 47, Lab 48</td>
+            </tr>
+            <tr>
+                <td>33-34</td>
+                <td>How to Estimate a UX Project</td>
+                <td>Quiz 8, Project Estimation Exercise, Project 17, Lab 49, Lab 50, Lab 51</td>
+            </tr>
+            <tr>
+                <td>35-36</td>
+                <td>Minimum Viable UX Portfolio</td>
+                <td>Portfolio Development, Final Presentation, Project 18, Lab 52, Lab 53, Lab 54</td>
+            </tr>
+        </table>
+              </section>
+<i class="fa fa-caret-square-o-up arrow animated" data-animation="rubberBand infinite" aria-hidden="true" onclick="$.scrollify.previous()"></i>
+  
+    <footer>
+		<div class="containter text-center foot">
+            <p>Made by Luna R. 2024 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"></a></p>
+		</div>
+	</footer>
+   
+
+    <script src="js/particles.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/main.js"></script>
+    
+</body>
+</html>

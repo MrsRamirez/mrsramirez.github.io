@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home</title>
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700|Work+Sans:300,400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <link rel="stylesheet" href="animate.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/scrollify.js"></script>
+    <link rel="icon" type="image/jpg" href="favicon.png">
+    <style>
+        .hero-text1{
+            position: relative;
+            top: -15px;
+        }
+        .works__title{
+            position: relative;
+            top: -15px;
+            left: 0px;  
+        }
+        .hero__subtitle1{
+            top: 150px;
+            text-indent: 50px;
+        }
+        .hero__subtitle{
+            top: 20px;
+        }
+        .hero__subtitle2{
+            top: 300px;
+            left: 4px;
+            max-width: 100%;
+            
+        }
+        .hero__subtitle3{
+            font-weight: regular;
+	        font-size: 1.3rem;
+            text-align: justify;
+            position: relative;
+            left: 25px;
+            max-width: 80%;
+        }
+    </style>
+</head>
+<body class="hidden" style="overflow: hidden !important;">
+    <div id="particles-js" class="animated" data-animation="fadeIn"></div>
+
+    <!-- Scroll Bar -->
+    <div class="scroll-bar animated" data-animation="fadeIn">
+        <div class="scroll-wrap">
+            <div class="bar__dots"> 
+                <span class="dots__circle"></span>
+                <span class="dots__circle"></span>
+                <span class="dots__circle"></span>
+            </div>
+            <div class="bar__line"></div>
+            <div class="bar__circle"></div>
+            <div class="bar__dots">
+                <span class="dots__circle"></span>
+                <span class="dots__circle"></span>
+                <span class="dots__circle"></span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Nav Bar -->
+    <nav class="top animated" data-animation="fadeInLeft">
+        <div class="nav__logo" onclick="$.scrollify.move('#home')">&#127772;</div>
+        <div class="nav__links">
+            <li><a href="index.html" target="_self">Ramirez</a></li>
+            <li><a href="Courses.html" target="_self">Courses</a></li>
+            <li><a href="Contact.html" target="_self">Contact</a></li>
+        </div>
+    </nav>
+
+    <!-- Home -->
+    <section class="container" data-section-name="home" id="up">
+        <i class="fa fa-caret-square-o-down arrow hidden animated" data-animation="rubberBand infinite" aria-hidden="true" onclick="$.scrollify.next()"></i>
+        
+        <div class="person-container">
+            <!-- Edited Version of a Photo by Luna Ramirez on Photopea -->
+            <img src="grade.svg" alt="grade.svg" class="person animated" data-animation="fadeInRight">
+        </div>
+
+        <div class="hero-text1">
+            <div class="random1 hero__name1">
+                <span class="nbr ltr">0</span>
+                <span class="nbr ltr">1</span>
+                <span class="nbr ltr">0</span>
+                <span class="nbr ltr">0</span>
+                <span class="nbr ltr">1</span>
+                <span class="nbr ltr">1</span>
+                <span class="nbr ltr">0</span>
+                <span class="nbr ltr">0</span>
+                <span class="nbr ltr">0</span>
+                <span class="nbr ltr">1</span>
+                <span class="nbr ltr">0</span>
+                <span class="nbr ltr">0</span>
+                <span class="nbr ltr">0</span>
+                <span class="nbr ltr">1</span>
+                <span class="nbr ltr">0</span>
+                <span class="nbr ltr">0</span>
+                <span class="nbr ltr">0</span>
+                <span class="nbr ltr">0</span>
+           </div>
+            <span class="hero__subtitle animated1" data-animation="zoomInUp">______Classroom Expectations</span>
+        </div>
+    
+    <!-- course description -->
+    <span class="hero__subtitle animated" data-animation="zoomInUp">______ and Grades:</span>
+        
+        <span class="hero__subtitle3 animated" data-animation="zoomInDown" >
+            <hr>
+            <ol>
+                <li>
+                    <strong>Be here.</strong>
+                    <p>You need to be in your assigned seat when the bell rings and working on the do now.</p>
+                    <p>3 Lateness and your participation grade will be lowered</p>
+                </li>
+                <li>
+                    <strong>Be responsible.</strong>
+                    <p>Bring everything you’ll need, such as paper, a pen, etc. All work must be submited on due date. You're responsible for all missed work.<br> If you suffer an extended illness or emergency, contact me to discuss a schedule for you to turn in your work.</p>
+                </li>
+                <li>
+                    <strong>Be respectful.</strong>
+                    <p>You are expected to be courteous and respectful to all students, teachers, and guests. <br>There will be no swearing, name-calling, snide comments, and throwing objects. <br>Also, the use of technology at inappropriate times is rude, per school policy, devices that are ill-used <br>will be taken from you and returned to your parents. Remember, you control your technology; it shouldn’t control you.</p>
+                </li>
+                <li>
+                    <strong>Be awesome.</strong>
+                    <p>Think for yourself. Be willing to think deeply, take risks, and work hard; then, you’ll love this class.</p>
+                </li>
+            </ol><br>
+            <table border="1" width="50%">
+                <tr>
+                    <th>Course Standard</th>
+                    <th>Method of Evaluation</th>
+                    <th>Weight</th>
+                </tr>
+                <tr>
+                    <td>Homework<br>Participation</td>
+                    <td>Attendance, Lateness, Cutting, Classwork, Assignments, Activities, Effort/Ability to answer questions. Respect for self, others and equipment, external independent learning</td>
+                    <td>15%</td>
+                </tr>
+                <tr>
+                    <td>Assignments<br>Labs-Projects</td>
+                    <td>Mid-term, final, quizzes, formative and summative assessments</td>
+                    <td>25%</td>
+                </tr>
+                <tr>
+                    <td>Assessments</td>
+                    <td>Class discussions, Includes chapter Code review, Replit Labs, etc.</td>
+                    <td>30%</td>
+                <tr>
+                    <td>Tech Manual <br>Portfolio</td>
+                    <td>Notes are organized and written in your own words(in addition to the notes written on the board by the teacher.)</td>
+                    <td>30%</td>
+                </tr>
+            </table>
+        </span>
+            
+        </div>
+    
+</section>
+    <section class="container" data-section-name="consequences" id="consequences">
+      <iframe class="iframe-wcp"></iframe>
+      <div class="wcp__overlay" ></div>
+        <span class="hero__subtitle animated" data-animation="zoomInUp">______Consequences:</span>
+        <hr>
+        <span class="hero__subtitle1 animated" data-animation="zoomInDown" >
+        <br>Students who fulfill the classroom requirements will enjoy a rich, rewarding, and successful learning experience.
+A student that does not meet one of these expectations will experience these negative consequences:
+<li>1st offense - Re-teaching of the expectations/rules & deduction of 5 participation points
+</li><li>2nd offense - Phone call home
+</li><li>3rd offense - Removed from class and sent to guidance. The student will not be allowed into the classroom until a parent/guardian comes for a conference with the teacher 
+</li><li>4th offense - Referral of student to the dean for disciplinary action</li>
+        <b>Late Work</b><br>
+        Excused absences only: Full credit (Must submit an official letter from parent/guardian/doctor/other)
+        <br>
+        <b>Non-excused Absence</b><br> - All assignments can be made up ONLY within five days from the assignment date.
+        <li>   Subtract 5 points (1 day)
+    </li><li> Subtract 25  points (2 days)
+    </li><li> Subtract 35 points (3 days or more)
+    </li><li> The best grade on late after 4 days and work that is done correctly will be a grade of 65.
+    </li><li> MUST email instructor and explain the reason for lateness following proper email etiquette. 
+    </li>
+    </span>
+              </section>
+<i class="fa fa-caret-square-o-up arrow animated" data-animation="rubberBand infinite" aria-hidden="true" onclick="$.scrollify.previous()"></i>
+  
+    <footer>
+		<div class="containter text-center foot">
+            <p>Made by Luna R. 2024 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"></a></p>
+		</div>
+	</footer>
+   
+
+    <script src="js/particles.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/main.js"></script>
+    
+</body>
+</html>

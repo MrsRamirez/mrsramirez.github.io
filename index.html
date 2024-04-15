@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home</title>
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700|Work+Sans:300,400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <link rel="stylesheet" href="animate.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/scrollify.js"></script>
+    <link rel="icon" type="image/jpg" href="favicon.png">
+</head>
+<body class="hidden" style="overflow: hidden !important;">
+    <div id="particles-js" class="animated" data-animation="fadeIn"></div>
+
+    
+
+    <!-- Scroll Bar -->
+    <div class="scroll-bar animated" data-animation="fadeIn">
+        <div class="scroll-wrap">
+            <div class="bar__dots"> 
+                <span class="dots__circle"></span>
+                <span class="dots__circle"></span>
+                <span class="dots__circle"></span>
+            </div>
+            <div class="bar__line"></div>
+            <div class="bar__circle"></div>
+            <div class="bar__dots">
+                <span class="dots__circle"></span>
+                <span class="dots__circle"></span>
+                <span class="dots__circle"></span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Nav Bar -->
+    <nav class="top animated" data-animation="fadeInLeft">
+        <div class="nav__logo" onclick="$.scrollify.move('#home')">&#127772;</div>
+        <div class="nav__links">
+            <li><a role="button" class="active" onclick="$.scrollify.move('#home')">Home</a></li>
+            <li><a role="button" onclick="$.scrollify.move('#about')">About</a></li>
+            <li><a role="button" onclick="$.scrollify.move('#works')">Courses</a></li>
+            <li><a role="button" onclick="$.scrollify.move('#resources')">Resources</a></li>
+            <li><a href="Contact.html" target="_self">Contact</a></li>
+        </div>
+    </nav>
+
+    <!-- Home -->
+    <section class="container" data-section-name="home">
+        <i class="fa fa-caret-square-o-down arrow hidden animated" data-animation="rubberBand infinite" aria-hidden="true" onclick="$.scrollify.next()"></i>
+        
+        <div class="person-container">
+            <!-- Edited Version of a Photo by Luna Ramirez on Photopea -->
+            <img src="person.svg" alt="person.svg" class="person animated" data-animation="fadeInRight">
+        </div>
+
+        <div class="hero-text">
+            <div class="random hero__name">
+                <span class="nbr ltr">0</span>
+                <span class="nbr ltr">0</span>
+                <span class="nbr ltr">0</span>
+                <span class="nbr ltr">0</span>
+                <span class="nbr ltr">0</span>
+                <span class="nbr ltr">0</span>
+                <span class="nbr ltr">0</span>
+                <span class="nbr ltr">0</span>
+                <span class="nbr ltr">0</span>
+                <span class="nbr ltr">0</span>
+                <span class="nbr ltr">0</span>
+                <span class="nbr ltr">0</span>
+                <span class="nbr ltr">0</span>
+                <span class="nbr ltr">0</span>
+                <span class="nbr ltr">0</span>
+                <span class="nbr ltr">0</span>
+                <span class="nbr ltr">0</span>
+                <span class="nbr ltr">0</span>
+           </div>
+            <span class="hero__subtitle animated" data-animation="zoomInUp">Web Design Academy</span>
+        </div>
+    </section>
+ <!-- About -->
+ <section class="container placeholder animated" data-animation="fadeIn" data-section-name="about" id="about">
+    <span class="hero__subtitle1 animated" data-animation="zoomInDown" >
+        Hello, I'm Luna Ramirez, and I'm delighted to be 
+        your CTE Teacher at Thomas A. Edison High School within the 
+        NYC Department of Education.  
+        I also have the privilege of being an Adjunct Lecturer at 
+        CUNY Queensborough Community College, 
+        a Math for America Fellow, and a Code.org Facilitator.<br> <br> 
+        I'm truly excited to share my passion for the world of technology 
+        and engineering with you. That's why I specialize 
+        in teaching subjects like Web Design, Network Communications, 
+        Computer Repair, and Robotics. </span>
+        <span class="hero__subtitle2 animated" data-animation="zoomInDown">
+            <br> Some of my favorite things are : &#127857; &#128054; &#127918; &#128126;  &#128153;  &#128164;  &#128301;  &#127747;  &#128509;  &#127749;
+             &#9924; &#128640; &#128758; &#128759; &#127758; 
+            <br> 
+         I can't wait to get to know each of you and embark on 
+         this exciting learning journey together. 
+         Let's dive into the world of Software engineering with enthusiasm and curiosity!<br><br><br><br><hr>
+    
+    </span>
+        
+        <div class="person-container">
+            <!-- Edited Version of a Photo by Luna Ramirez on Photopea -->
+            <img src="person.svg" alt="person.svg" class="person animated" data-animation="fadeInRight">
+        </div>
+       
+        <div class="LI-profile-badge" ><a id="resume" href="https://www.linkedin.com/in/mrsramirez?original_referer=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fmrsramirez">Do you want to know more...?</a></div>       
+</section>
+    <!-- Works -->
+    <section class="container animated" data-animation="fadeIn" data-section-name="works">
+        <div class="works__title">
+            <span class="title-lines"></span>
+            <span class="title">Courses</span>
+            <span class="title-lines"></span>
+        </div>
+        <div class="works">
+            <div class="llll">
+                <div class="ll">
+                    <iframe class="iframe-wcp"></iframe>
+                    <div class="wcp__overlay" >Web Development/CSP</div>
+                </div>
+            </div>
+            <div class="works__old">
+                <a href="WD.html" class="link"><div class="works__dd" onclick="goTo(this)" data-href="WD.html" >Web Development <br> (HTML5)</div></a>
+                <a href="apcsp.html" class="link"><div class="works__dd" onclick="return pass()" data-href="apcsp.html" >AP CSP<br> (App Lab)</div></a>
+                
+            </div>
+            <div class="works__old">
+                <a href="PnP.html" class="link"><div class="works__dd" onclick="goTo(this)" data-href="PnP.html" >Programming & Prototyping<br> (Python)</div></a>
+                <a href="apcsa.html" class="link"><div class="works__dd" onclick="return pass()" data-href="apcsa.html" >AP CSA<br> (JAVA)</div></a>
+               
+            </div>
+            <div class="works__old">
+                <a href="QCCboot.html" class="link"><div class="works__dd" onclick="return pass()" data-href="QCCboot.html" >QCC Software Eng. MicoCredential Bootcamp</div></a>
+                <a href="MfA.html" class="link"><div class="works__dd" onclick="return pass()" data-href="MfA.html" >MfA Workshops</div></a>
+               
+               
+            </div>
+        </div>
+    </section>
+
+    
+    <footer>
+		<div class="containter text-center foot">
+			<p>Made by Luna R. 2024 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"></a></p>
+		</div>
+	</footer>
+   
+<script>
+    function pass(){
+            var password = "please";
+            
+            var x = prompt("Enter in the password ","");
+            if (x.toLowerCase() == password) {
+            alert("Come right in \n \n You've entered in the right password");
+            window.location = "MfA.html";
+            }
+           
+            else{
+            window.location = "bad.html";
+            }
+    }
+</script>
+    <script src="js/particles.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/main.js"></script>
+    
+</body>
+</html>
